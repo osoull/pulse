@@ -1,0 +1,47 @@
+{
+  "name": "pulse-pe-manager",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview --port 3000",
+    "start": "vite --port 3000"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^3.10.0",
+    "@azure/msal-react": "^2.0.12",
+    "@headlessui/react": "^1.7.18",
+    "@hookform/resolvers": "^3.3.4",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "date-fns": "^3.3.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "lucide-react": "^0.344.0",
+    "openai": "^4.28.0",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.50.1",
+    "react-router-dom": "^6.22.1",
+    "recharts": "^2.12.2",
+    "zod": "^3.22.4",
+    "zustand": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  }
+}

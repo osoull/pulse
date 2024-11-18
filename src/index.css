@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900 font-sans bg-accent dark:bg-gray-900 dark:text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display text-primary dark:text-white;
+  }
+}
+
+.btn-primary {
+  @apply bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-light transition-colors duration-200 font-medium shadow-osoul dark:shadow-none;
+}
+
+.btn-secondary {
+  @apply bg-white text-primary border border-primary px-4 py-2 rounded-lg hover:bg-secondary-light transition-colors duration-200 font-medium shadow-osoul dark:shadow-none dark:bg-gray-800 dark:border-gray-700 dark:text-white;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-osoul dark:bg-gray-800 dark:shadow-none;
+}
+
+.input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition duration-200 dark:bg-gray-800 dark:border-gray-700 dark:text-white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-accent dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary bg-opacity-20 rounded-full hover:bg-opacity-30 dark:bg-opacity-40 dark:hover:bg-opacity-50;
+}
+
+/* Gold accents */
+.accent-gold {
+  @apply text-gold hover:text-gold-dark transition-colors duration-200;
+}
+
+.bg-gradient-brand {
+  @apply bg-gradient-to-br from-primary via-primary to-primary-dark;
+}
